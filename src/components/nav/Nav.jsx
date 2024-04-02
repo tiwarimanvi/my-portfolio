@@ -1,10 +1,20 @@
 import React from 'react'
+import { GoHome } from "react-icons/go";
+import { LuUser2 } from "react-icons/lu";
+import { RiBook2Line } from "react-icons/ri";
+import { RiServiceLine } from "react-icons/ri";
+
+
 import './nav.css'
 const Nav = () => {
   return (
-    <div>
-      
-    </div>
+    <nav>
+      <a href="#"><GoHome/></a>
+      <a href="#about"><LuUser2 /></a>
+      <a href="#experience"><RiBook2Line /></a>
+      <a href="#services"><RiServiceLine /></a>
+      <a href="#contact"><GoHome/></a>
+    </nav>
   )
 }
 
